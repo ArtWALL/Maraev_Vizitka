@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+body{
+    font-family: 'Staatliches', cursive;
+    background: url("https://kartinkinaden.ru/uploads/posts/2020-09/1600185694_5-p-odnotonnie-foni-dlya-saita-6.jpg") no-repeat center center / cover;
+    padding: 100px 0;
+}
+.title{
+    position: relative;
+    z-index: 1;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container{
+    width: 800px;
+    min-height: 300px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+}
+.header{
+    display: flex;
+    height: 150px;
+}
+.title-block{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    width: 80%;
+    height: 100%;
+    background: url("http://getwallpapers.com/wallpaper/full/c/8/2/179724.jpg") no-repeat center center / cover;
+    color: black;
+    margin-right: 10px;
+}
+.title-block::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.3;
+}
+.userpic{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url("Ready.jpg") no-repeat center center / cover;
+}
+.nav ul{
+display: flex;
+    background: #bbbbbb;
+}
+
+.nav li a{
+    padding: 20px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    border-right: 1px solid white;
+    transition: background .3s ease;
+}
+.nav li a:hover{
+    background: grey;
+}
+.content-wrapper{
+    display: flex;
+}
+.content{
+    width: 70%;
+    padding: 20px;
+    text-align: left;
+    line-height: 20px;
+}
+.sidebar{
+    width: 30%;
+    padding: 20px;
+    text-align: right;
+}
+.skills li{
+padding: 10px 0;
+    transition: transform .5s ease;
+    cursor: pointer;
+}
+.skills li:hover{
+    transform: translateX(10px);
+}
